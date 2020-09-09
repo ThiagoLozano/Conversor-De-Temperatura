@@ -2,6 +2,10 @@
 
 > Uma página que faz conversões de temperatura.
 
+Criar uma página que apareça a temperatura 0ºC como padrão, um campo onde o usuário possa escolher a temperatura que deseja converter e um botão que ao clicar mostre a conversão.
+Uma barra de navegação onde o usuário pode escolher para qual unidade de temperatura ele quer converter.
+Fazer uma validação com o tipo de dado que é inserido, emitir uma mensagem de erro.
+
 # Tecnologias Utilizadas
 * **_HTML 5;_**
 * **_CSS 3;_**
