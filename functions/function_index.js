@@ -16,11 +16,11 @@ function Validar() {
     }
     else {
         // Caso esteja tudo certo.
-        Converter()
+        ConverterF()
     }
 }
 
-function Converter() {
+function ConverterF() {
     // Condições.
     // Se valor do elemento de id de nome 'unidade' == 'f' (Farhrenheit).
     if (document.getElementById("unidade").value == 'f') {
