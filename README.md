@@ -61,7 +61,7 @@ function ConverterF() {
 ![Conversão]()
 
 ### Página WEB:
-![]()
+![Página]()
 
 # Bibliotecas e Configurações
 
@@ -72,5 +72,4 @@ CSS3: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0
 
 ```
 Google Fontes: <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
 ```
