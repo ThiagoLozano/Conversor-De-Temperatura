@@ -6,7 +6,7 @@ function Validar() {
     if (vg == "") {
         // VCaso valor seja vazio.
         alert('Erro: Nenhum Valor Inserido!')
-        document.getElementById('txt').innerHTML = "0°C";
+        document.getElementById('txt').innerHTML = "0°F";
 
     }
     // Caso valor não seja um número.
@@ -28,7 +28,7 @@ function ConverterF() {
         var c = document.getElementById("valor_graus").value;
         var f = (c * 9 / 5) + 32;
         // Mostra resultado no id de nome 'txt'.
-        document.getElementById('txt').innerHTML = Math.round(f * 100) / 100 + "°C";
+        document.getElementById('txt').innerHTML = Math.round(f * 100) / 100 + "°F";
     }
     // Se valor do elemento de id de nome 'unidade' == 'K' (kelvin).
     else if (document.getElementById("unidade").value == 'k') {
@@ -36,6 +36,6 @@ function ConverterF() {
         var k = document.getElementById("valor_graus").value;
         var f = (k - 273.15) * (9 / 5) + 32;
         // Mostra resultado no id de nome 'txt'.
-        document.getElementById('txt').innerHTML = Math.round(f * 100) / 100 + "°C"
+        document.getElementById('txt').innerHTML = Math.round(f * 100) / 100 + "°F"
     }
 }
