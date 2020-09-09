@@ -26,7 +26,7 @@ function ConverterF() {
     if (document.getElementById("unidade").value == 'c') {
         // Pega o valor do id de nome 'valor_graus' e cria a fórmula de conversão (°F > °C).
         var c = document.getElementById("valor_graus").value;
-        var f = (c + 9 / 5) + 32;
+        var f = (c * 9 / 5) + 32;
         // Mostra resultado no id de nome 'txt'.
         document.getElementById('txt').innerHTML = Math.round(f * 100) / 100 + "°C";
     }
