@@ -4,7 +4,7 @@ function Validar() {
     var vg = document.getElementById("valor_graus").value
     // Condições.
     if (vg == "") {
-        // VCaso valor seja vazio.
+        // Caso valor seja vazio.
         alert('Erro: Nenhum Valor Inserido!')
         document.getElementById('txt').innerHTML = "0°C";
 
