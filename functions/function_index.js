@@ -12,6 +12,7 @@ function Validar() {
     // Caso valor não seja um número.
     else if (isNaN(vg)) {
         alert("Erro: Tipo de Dado Inválido!")
+        document.getElementById('valor_graus').value = "";
     }
     else {
         // Caso esteja tudo certo.
