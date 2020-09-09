@@ -34,7 +34,7 @@ function Validar() {
     }
 }
 ```
-![Validar]()
+![Validar](https://github.com/ThiagoLozano/Conversor-De-Temperatura---WEB/blob/master/Screenshot/Funcao_Validar.PNG)
 
 ### Função de Conversão:
 ```
@@ -58,10 +58,10 @@ function ConverterF() {
     }
 }
 ```
-![Conversão]()
+![Conversão](https://github.com/ThiagoLozano/Conversor-De-Temperatura---WEB/blob/master/Screenshot/Funcao_ConverterF.PNG)
 
 ### Página WEB:
-![Página]()
+![Página](https://github.com/ThiagoLozano/Conversor-De-Temperatura---WEB/blob/master/Screenshot/Pagina_WEB.PNG)
 
 # Bibliotecas e Configurações
 
