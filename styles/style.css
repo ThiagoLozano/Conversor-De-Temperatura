@@ -28,7 +28,7 @@ li a {
 }
 
 .logo{
-    float: right;            /* Joga o texto para a esquerda da barra  */
+    float: left;            /* Joga o texto para a esquerda da barra  */
     color: white;         /* Cor do texto */
     padding: 15px 25px;     /* Posição do texto */
     text-align: center;     /* Alinhamento do Texto */
