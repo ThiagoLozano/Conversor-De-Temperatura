@@ -34,7 +34,7 @@ function Validar() {
     }
 }
 ```
-![]()
+![Validar]()
 
 ### Função de Conversão:
 ```
@@ -58,12 +58,9 @@ function ConverterF() {
     }
 }
 ```
-![]()
+![Conversão]()
 
 ### Página WEB:
-```
-
-```
 ![]()
 
 # Bibliotecas e Configurações
@@ -71,7 +68,9 @@ function ConverterF() {
 ### Bootstrap
 ```
 CSS3: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+```
 
 ```
-![]()
+Google Fontes: <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+```
