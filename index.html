@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Converte par Celsius </title>
+
+    <!-- CSS 3 -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- JS -->
+    <script src="functions/function_index.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Barra de Navegação -->
+    <nav id="teste">
+        <ul>
+            <a class="logo" href="#"> Converor de Temperatura </a></li>
+            <li> <a href="#"> Farhrenheit </a> </li>
+            <li> <a href="#"> Kelvin </a> </li>
+            <li> <a href="#"> Celsius </a> </li>
+        </ul>    
+    </nav>
+    
+    <!-- Texto onde retorna os graus convertidos -->
+    <div class="grau">
+        <h1 id="txt"> 0°C </h1>
+    </div>
+
+    <!-- Campos que o usuário deve preencher -->
+    <form class="form-inline">
+        <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" id="valor_graus" name="valor_graus" value="" placeholder="Valor:">
+            </div>
+        </div>
+
+        <div class="col">
+            <select class="form-control" id="unidade" name="unidade">
+                <option value="k"> Kelvin </option>
+                <option value="f" selected> Farhrenheit </option>
+            </select>
+        </div>
+    </form>
+
+    <!-- Botão que chama a função JS -->
+    <button type="button" class="btn btn-primary" onclick="Validar()"> Converter </button>
+
+</body>
+
+</html>

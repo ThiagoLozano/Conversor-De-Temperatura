@@ -1,0 +1,78 @@
+body{
+    margin: 0; /* Tira a margem da página */
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/18/13/04/trickle-2654887_960_720.jpg"); /* Imagem de Fundo */
+    background-repeat: no-repeat;   /* Não repete a Imagem*/
+    background-attachment: fixed;   /* Fixa a Imagem*/
+    background-size: 100% 100%;     /* O quanto preenche da tela */
+}
+
+nav ul {
+    list-style-type: none;      /* Tira o estilo de lista */
+    margin: 0;                  /* Tira a margem */
+    padding: 0;                 /* Tira o espaçamento */
+    overflow: auto;             /* Rolagem da página */
+    background-color: #333;   /* Cor de Fundo da barra */
+}
+
+li {
+    float: right;   /* Joga a lista para a direita da barra */
+}
+
+li a {
+    display: block;         /* Bloqueia a exibição */
+    color: white;         /* Cor do texto */
+    text-align: center;     /* Alinhamento do texto */
+    padding: 15px 25px;     /* Posição do texto */
+    text-decoration: none;  /* Tira o estilo de Lista */
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    float: left;            /* Joga o texto para a esquerda da barra  */
+    color: white;         /* Cor do texto */
+    padding: 15px 25px;     /* Posição do texto */
+    text-align: center;     /* Alinhamento do Texto */
+    text-decoration: none;  /* Tira o estila de lista */
+    font-family: 'Roboto', sans-serif;
+}
+
+li a:hover {
+    background-color: white;    /* Fundo da barra ao passar o mouse */
+    color: black;               /* Cor do texto ao passar o mouse */
+}
+
+.grau{
+    height: 10em;
+    position: relative
+}
+
+.grau h1{
+    color: #ABD6E3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin: 0;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
